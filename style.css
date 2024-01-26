@@ -77,10 +77,22 @@ body{
 .container{
     background-color: var(--white);
     width: 500px;
-    height: 504px;
+    height: 604px;
     position: relative;
-    border-radius: 0 0 25px 25px;
+    border-radius: 25px;
     font-size: 20px;
+}
+.perfil{
+    width: 100%;
+    height: 100px;
+    background-color: var(--azul-claro);
+    position: relative;
+    color: #fff;
+    font-weight: var(--font-black);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 25px 25px 0 0 ;
+    padding: 35px 0 35px 0;
 }
 .espaco{
     padding: 20px 30px 12px 20px;
@@ -176,14 +188,66 @@ body{
     width: 100%;
     height: 47px;
     position: relative;
-    top: 12%;
-    background-color: var(--azul-claro);
+    top: 60px;
     border-radius: 0 0 25px 25px;
     text-align: center;
     display: flex;
-}
-.nav a{
+    font-weight: var(--font-semibold);
+    font-size: 20px;
     text-decoration: none;
+}
+.proj{
+    width: 250px;
+    position: relative;
+    height: 47px;
+    background-color: var(--azul-claro);
+    text-align: center;
+    border-radius: 0 0 0 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: var(--font-semibold);
+    text-decoration: none;
+    padding: 11px 82.84px 12px 81.25px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: var(--white);
+}
+.cont{
+    width: 250px;
+    position: relative;
+    height: 47px;
+    background-color: var(--azul-claro);
+    text-align: center;
+    border-radius: 0 0 25px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: var(--font-semibold);
+    padding: 11px 82.84px 12px 81.25px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: var(--white);
+}
+.proj:hover {
+    background-color: var(--azul-escuro);
+}
+.cont:hover {
+    background-color: var(--azul-escuro);
+}
+
+.projetos{
+    position: relative;
+    padding: 20px 30px 12px 20px;
+    font-weight: var(--font-bold);
+    font-size: 24px;
+    text-align: center;
 }
 
 .minha_tag{
@@ -194,3 +258,4 @@ body{
     color: var(--deep-grey);
     opacity: 85%;
 }
+
