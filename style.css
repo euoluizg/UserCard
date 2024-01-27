@@ -32,6 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: var(--cinza);
 }
 
 #container{
@@ -44,24 +45,10 @@ body{
     text-align: center;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-.bx-minus{
-   position: absolute;
-   left: 10px;
-   top: 10px;
-   color: #104b64;
-}
-.bx-minus:hover {
-    scale: 1.2;
-    transition: scale 0.5s ease-in-out;
-  }
 .user{
     position: relative;
     top: 25%;
 }
-.user:hover {
-    scale: 1.1;
-    transition: scale 0.5s ease-in-out;
-  }
 .nick{
     font-weight: var(--font-black);
     font-size: 20px;
@@ -184,71 +171,6 @@ body{
     color: var(--azul-escuro);
 }
 
-.nav{
-    width: 100%;
-    height: 47px;
-    position: relative;
-    top: 60px;
-    border-radius: 0 0 25px 25px;
-    text-align: center;
-    display: flex;
-    font-weight: var(--font-semibold);
-    font-size: 20px;
-    text-decoration: none;
-}
-.proj{
-    width: 250px;
-    position: relative;
-    height: 47px;
-    background-color: var(--azul-claro);
-    text-align: center;
-    border-radius: 0 0 0 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: var(--font-semibold);
-    text-decoration: none;
-    padding: 11px 82.84px 12px 81.25px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    color: var(--white);
-}
-.cont{
-    width: 250px;
-    position: relative;
-    height: 47px;
-    background-color: var(--azul-claro);
-    text-align: center;
-    border-radius: 0 0 25px 0;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: var(--font-semibold);
-    padding: 11px 82.84px 12px 81.25px;
-    display: inline-block;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    color: var(--white);
-}
-.proj:hover {
-    background-color: var(--azul-escuro);
-}
-.cont:hover {
-    background-color: var(--azul-escuro);
-}
-
-.projetos{
-    position: relative;
-    padding: 20px 30px 12px 20px;
-    font-weight: var(--font-bold);
-    font-size: 24px;
-    text-align: center;
-}
 
 .minha_tag{
     position: absolute;
