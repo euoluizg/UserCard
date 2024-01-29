@@ -50,6 +50,7 @@ body{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     padding-top: 35px;
     padding-bottom: 35px;
+    border-bottom: 5px solid var(--white);
 }
 .user{
     position: relative;
@@ -82,24 +83,7 @@ body{
 .contato a :hover{
     transform: scale(1.2);
 }
-.branco{
-    background-color: var(--white);
-    height: 35px;
-    width: 500px;
-    position:  absolute;
-    border-radius: 0 0 25px 25px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    justify-content: center;
-    align-items: center;
-    left: 32.61%;
-    top: 73%;
-}
-.branco a{
-    transition: transform 0.3s ease;
-}
-.branco:hover{
-    height: 40px;
-}
+
 .minha_tag{
     position: absolute;
     left: 1%;
